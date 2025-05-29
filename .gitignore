@@ -6,3 +6,6 @@ logs/
 
 # Trained Models
 models/
+
+# Cache
+__pycache__

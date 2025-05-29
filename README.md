@@ -7,32 +7,21 @@ This repository contains an implementation of **Denoising Diffusion Probabilisti
 ## Features
 
 - Implementation of a **DDPM** in PyTorch.
-- Training on the **CIFAR-10 dataset**.
+- Training on the **MNIST and CIFAR-10** datasets.
 - Logging with TensorBoard.
-- Generation of images with visualization in Plotly.
 
 ## Usage
 
-### Training
 To train the DDPM, run:
 ```bash
-python train.py
+python run.py
 ```
 This script will:
 - Train the model.
 - Save the trained model in `MODEL_DIR`.
-- Log the loss values in TensorBoard.
+- Log the loss values and generated samples in TensorBoard.
 
-To see the plotted loss functions, run ```tensorboard --logdir=logs``` in the terminal.
-
-### Inference
-To visualize generated images from the trained model, run:
-```bash
-python infer.py
-```
-This script will:
-- Load the trained model.
-- Display generated images.
+To see the plotted loss functions the generated samples, run ```tensorboard --logdir=logs``` in the terminal.
 
 ## References
 

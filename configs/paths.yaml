@@ -1,3 +1,5 @@
 model_name : "dppm_v0"
-model_dir : "models"
+
+data_dir : "data"
 log_dir : "logs"
+weights_dir : "weights"
